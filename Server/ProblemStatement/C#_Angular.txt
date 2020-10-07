@@ -1,0 +1,30 @@
+Create a solution.
+
+Use the following database entities
+
+[Product]
+ProductId
+Name
+Price
+Stock
+Image
+
+Provide implementation that will support these operations.
+
+List Products
+ 
+
+Define the Data Model.
+Define a repository layer.
+Define a business service layer.
+
+Instead of Database, you SHOULD use concrete Lists or Dictionary.
+
+Expose the data either using Web Api OR an MVC action (get / json)
+
+Create an angular service to make the data available, 
+and inject this into an angular component which lists the results onto the page
+
+
+
+

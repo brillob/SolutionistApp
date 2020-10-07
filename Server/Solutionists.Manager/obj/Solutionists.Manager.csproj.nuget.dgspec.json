@@ -1,0 +1,213 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\OneDrive\\Work\\Study\\Solutionists\\Server\\Solutionists.Manager\\Solutionists.Manager.csproj": {}
+  },
+  "projects": {
+    "C:\\OneDrive\\Work\\Study\\Solutionists\\Server\\Solutionists.Data\\Solutionists.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\OneDrive\\Work\\Study\\Solutionists\\Server\\Solutionists.Data\\Solutionists.Data.csproj",
+        "projectName": "Solutionists.Data",
+        "projectPath": "C:\\OneDrive\\Work\\Study\\Solutionists\\Server\\Solutionists.Data\\Solutionists.Data.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\OneDrive\\Work\\Study\\Solutionists\\Server\\Solutionists.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\OneDrive\\Work\\Study\\Solutionists\\Server\\Solutionists.Model\\Solutionists.Model.csproj": {
+                "projectPath": "C:\\OneDrive\\Work\\Study\\Solutionists\\Server\\Solutionists.Model\\Solutionists.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "System.Linq.Expressions": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\OneDrive\\Work\\Study\\Solutionists\\Server\\Solutionists.Manager\\Solutionists.Manager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\OneDrive\\Work\\Study\\Solutionists\\Server\\Solutionists.Manager\\Solutionists.Manager.csproj",
+        "projectName": "Solutionists.Manager",
+        "projectPath": "C:\\OneDrive\\Work\\Study\\Solutionists\\Server\\Solutionists.Manager\\Solutionists.Manager.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\OneDrive\\Work\\Study\\Solutionists\\Server\\Solutionists.Manager\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "C:\\OneDrive\\Work\\Study\\Solutionists\\Server\\Solutionists.Data\\Solutionists.Data.csproj": {
+                "projectPath": "C:\\OneDrive\\Work\\Study\\Solutionists\\Server\\Solutionists.Data\\Solutionists.Data.csproj"
+              },
+              "C:\\OneDrive\\Work\\Study\\Solutionists\\Server\\Solutionists.Model\\Solutionists.Model.csproj": {
+                "projectPath": "C:\\OneDrive\\Work\\Study\\Solutionists\\Server\\Solutionists.Model\\Solutionists.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[1.0.1-alpha, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[7.5.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\OneDrive\\Work\\Study\\Solutionists\\Server\\Solutionists.Model\\Solutionists.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\OneDrive\\Work\\Study\\Solutionists\\Server\\Solutionists.Model\\Solutionists.Model.csproj",
+        "projectName": "Solutionists.Model",
+        "projectPath": "C:\\OneDrive\\Work\\Study\\Solutionists\\Server\\Solutionists.Model\\Solutionists.Model.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\OneDrive\\Work\\Study\\Solutionists\\Server\\Solutionists.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

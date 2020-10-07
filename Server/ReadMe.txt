@@ -1,0 +1,2 @@
+Created with VS2017 - .NET Core 2.0  Solution. ( can run in VS 2019 as well)
+Need to run the Solutionists.API as the startup Project with the IISEXpress setting as the urls are mapped for IISExpress settings in Angular Solution.
